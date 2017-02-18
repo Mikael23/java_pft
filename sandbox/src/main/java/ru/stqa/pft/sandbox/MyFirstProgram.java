@@ -14,6 +14,14 @@ System.out.println("Площадь квадрата со стороной " + s.
 Rectangle r = new Rectangle(4,6);
 
 System.out.println("Площадь прямоугольника " + r.a +  "и " +r.b + "=" + r.area());
+        System.out.println("============================");
+Points a = new Points();
+
+double c = a.getdistance(3,5,7,2);
+
+System.out.println(c);
+
+
 
 
 
