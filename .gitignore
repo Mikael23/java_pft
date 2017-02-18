@@ -1,2 +1,11 @@
 .idea/workspace.xml
 sandbox/src/main/java/ru/stqa/pft/sandbox/MyFirstProgram.java
+sandbox/src/main/java/ru/stqa/pft/sandbox/Points.java
+sandbox/build/classes/main/Point.class
+sandbox/build/classes/main/ru/stqa/pft/sandbox/Rectangle.class
+sandbox/src/main/java/Point.java
+sandbox/build/classes/test/ru/stqa/pft/sandbox/SquareTests.class
+sandbox/build/classes/main/ru/stqa/pft/sandbox/Square.class
+sandbox/build/classes/main/ru/stqa/pft/sandbox/MyFirstProgram.class
+sandbox/build/classes/test/DistanceTest.class
+.idea/workspace.xml
