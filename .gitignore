@@ -9,3 +9,9 @@ sandbox/build/classes/main/ru/stqa/pft/sandbox/Square.class
 sandbox/build/classes/main/ru/stqa/pft/sandbox/MyFirstProgram.class
 sandbox/build/classes/test/DistanceTest.class
 .idea/workspace.xml
+adressbook-web-tests/gradlew.bat
+adressbook-web-tests/gradlew
+*.xml
+*.iml
+adressbook-web-tests/gradle/wrapper/gradle-wrapper.properties
+*.class
