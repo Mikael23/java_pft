@@ -10,6 +10,8 @@ repositories{
 dependencies{
     compile 'org.testng:testng:6.10'
 
-    compile 'org.seleniumhq.selenium:selenium-java:3.1.0'
+    compile 'com.applitools:eyes-selenium-java-jersey1x:2.34'
+    compile 'com.applitools:eyes-selenium-java:2.56'
+
 
 }
