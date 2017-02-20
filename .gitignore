@@ -20,3 +20,4 @@ TestNewContacts/gradle/wrapper/gradle-wrapper.properties
 TestNewContacts/gradlew
 TestNewContacts/gradle/wrapper/gradle-wrapper.jar
 TestNewContacts/gradlew.bat
+.idea/workspace.xml
