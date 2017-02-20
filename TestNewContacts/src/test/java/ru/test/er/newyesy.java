@@ -20,12 +20,7 @@ public class newyesy {
     @BeforeMethod
     public void setUp() throws Exception {
         wd = new FirefoxDriver();
-        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-    }
-    
-    @Test
-    public void newyesy() {
-        wd.get("http://localhost/addressbook/group.php");
+        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); wd.get("http://localhost/addressbook/group.php");
         wd.findElement(By.name("user")).click();
         wd.findElement(By.name("user")).clear();
         wd.findElement(By.name("user")).sendKeys("admin");
@@ -37,6 +32,12 @@ public class newyesy {
             wd.findElement(By.name("selected[]")).click();
         }
         wd.findElement(By.name("delete")).click();
+
+    }
+    
+    @Test
+    public void newyesy() {
+
         wd.findElement(By.linkText("groups")).click();
         wd.findElement(By.name("new")).click();
         wd.findElement(By.name("group_name")).click();

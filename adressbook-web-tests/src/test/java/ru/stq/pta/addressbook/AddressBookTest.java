@@ -16,6 +16,7 @@ import static org.openqa.selenium.OutputType.*;
 
 public class AddressBookTest
 {
+    FirefoxDriver wd;
     
     @BeforeMethod
     public void setUp() throws Exception {
@@ -24,7 +25,7 @@ public class AddressBookTest
     }
     
     @Test
-    public void AdressBookTest() {
+    public void testAdressBookTest() {
         wd.get("http://localhost/addressbook/group.php");
         wd.findElement(By.id("header")).click();
         wd.findElement(By.name("user")).click();
