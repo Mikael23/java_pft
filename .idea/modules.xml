@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNewContacts.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNewContacts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNewContacts_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNewContacts_main.iml" group="TestNewContacts" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNewContacts_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNewContacts_test.iml" group="TestNewContacts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Testnewcontactcreation.iml" filepath="$PROJECT_DIR$/.idea/modules/Testnewcontactcreation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Testnewcontactcreation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Testnewcontactcreation_main.iml" group="Testnewcontactcreation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Testnewcontactcreation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Testnewcontactcreation_test.iml" group="Testnewcontactcreation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-web-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-web-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-web-tests_main.iml" group="adressbook-web-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-web-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-web-tests_test.iml" group="adressbook-web-tests" />
