@@ -28,3 +28,5 @@ Testnewcontactcreation/gradle/wrapper/gradle-wrapper.jar
 Testnewcontactcreation/gradle/wrapper/gradle-wrapper.properties
 Testnewcontactcreation/gradlew
 *.xml
+*.gradle
+*.xml

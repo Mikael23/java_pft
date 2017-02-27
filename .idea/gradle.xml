@@ -15,6 +15,53 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/NewTestCreationContact/.gradle/3.3/taskArtifacts" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Adressbooks" />
+        <option name="gradleHome" value="$PROJECT_DIR$/NewTestCreationContact/.gradle/3.3/taskArtifacts" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Adressbooks" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Adressbookwebtests" />
+        <option name="gradleHome" value="$PROJECT_DIR$/NewTestCreationContact/.gradle/3.3/taskArtifacts" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Adressbookwebtests" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/NewTestCreationContact" />
+        <option name="gradleHome" value="$PROJECT_DIR$/NewTestCreationContact/.gradle/3.3/taskArtifacts" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/NewTestCreationContact" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/TestNewContacts" />
         <option name="modules">

@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Adressbooks.iml" filepath="$PROJECT_DIR$/.idea/modules/Adressbooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Adressbookwebtests.iml" filepath="$PROJECT_DIR$/.idea/modules/Adressbookwebtests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Adressbookwebtests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Adressbookwebtests_main.iml" group="Adressbookwebtests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Adressbookwebtests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Adressbookwebtests_test.iml" group="Adressbookwebtests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewTestCreationContact_main.iml" filepath="$PROJECT_DIR$/.idea/modules/NewTestCreationContact_main.iml" group="NewTestCreationContact" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewTestCreationContact_test.iml" filepath="$PROJECT_DIR$/.idea/modules/NewTestCreationContact_test.iml" group="NewTestCreationContact" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNewContacts.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNewContacts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNewContacts_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNewContacts_main.iml" group="TestNewContacts" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNewContacts_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNewContacts_test.iml" group="TestNewContacts" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Testnewcontactcreation.iml" filepath="$PROJECT_DIR$/.idea/modules/Testnewcontactcreation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Testnewcontactcreation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Testnewcontactcreation_main.iml" group="Testnewcontactcreation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Testnewcontactcreation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Testnewcontactcreation_test.iml" group="Testnewcontactcreation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-web-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-web-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-web-tests_main.iml" group="adressbook-web-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-web-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-web-tests_test.iml" group="adressbook-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_pft.iml" filepath="$PROJECT_DIR$/.idea/modules/java_pft.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox_main.iml" group="sandbox" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox_test.iml" group="sandbox" />
