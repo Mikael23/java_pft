@@ -1,7 +1,7 @@
 package ru.atq.adressbook.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
 import ru.atq.adressbook.model.GroupData;
 
 /**
@@ -9,7 +9,7 @@ import ru.atq.adressbook.model.GroupData;
  */
 public class GroupHelper extends HelperBaser {
 
-    public GroupHelper(FirefoxDriver wd) {
+    public GroupHelper(WebDriver wd) {
         super(wd);
     }
 

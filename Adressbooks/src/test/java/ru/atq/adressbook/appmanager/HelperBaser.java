@@ -2,15 +2,15 @@ package ru.atq.adressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriver;
 
 /**
  * Created by Михаил on 27.02.2017.
  */
 public class HelperBaser {
-    protected FirefoxDriver wd;
+    protected WebDriver wd;
 
-    public HelperBaser(FirefoxDriver wd) {
+    public HelperBaser(WebDriver wd) {
         this.wd = wd;
     }
 
