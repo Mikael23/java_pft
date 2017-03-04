@@ -116,7 +116,7 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Adressbooks/src/test/java/ru/atq/adressbook/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="374">
               <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -3304,9 +3304,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GrouoDelitionTest - 2017.02.27 at 15h 49m 37s.xml">
-      <configuration name="GrouoDelitionTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GrouoDelitionTest - 2017.02.27 at 15h 53m 08s.xml">
       <configuration name="GrouoDelitionTest" configurationId="TestNG" />
     </history-entry>
@@ -3331,6 +3328,9 @@
     <history-entry file="Testcontactcreation - 2017.02.27 at 16h 00m 05s.xml">
       <configuration name="Testcontactcreation" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Testcontactcreation - 2017.02.27 at 16h 03m 06s.xml">
+      <configuration name="Testcontactcreation" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="Testgroupcreation - 2017.02.27 at 15h 59m 15s.xml">
       <configuration name="Testgroupcreation" configurationId="TestNG" />
     </history-entry>
@@ -3348,7 +3348,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122834645" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2913386" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2913386" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29291338" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -3680,7 +3680,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Adressbooks/src/test/java/ru/atq/adressbook/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="374">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />

@@ -10,7 +10,7 @@ public class Testgroupcreation extends TestBase {
 
         app.getNavigationHelper().GoToGroupPage();
         app.getGroupHelper().InigroupCreation();
-        app.getGroupHelper().FillGroupName(new GroupData("test1", "test2", "test3"));
+        app.getGroupHelper().FillGroupName(new GroupData("test1", "text", "text"));
         app.getGroupHelper().SubmutGroupCreation();
         app.getGroupHelper().Returntogrouppage();
     }

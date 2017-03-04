@@ -15,13 +15,22 @@ public class HelperBaser {
     }
 
     protected void click(By locator) {
+
         wd.findElement(locator).click();
+
+
+
     }
 
     protected void type(By locator, String text) {
-        wd.findElement(locator).click();
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(text);
+
+
+
+            click(locator);
+            wd.findElement(locator).clear();
+            wd.findElement(locator).sendKeys(text);
+
+
     }
     public  boolean isAlertPresent() {
         try {
