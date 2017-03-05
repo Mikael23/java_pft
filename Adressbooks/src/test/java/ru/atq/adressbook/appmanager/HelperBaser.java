@@ -16,6 +16,7 @@ public class HelperBaser {
 
     protected void click(By locator) {
 
+
         wd.findElement(locator).click();
 
 
@@ -25,10 +26,12 @@ public class HelperBaser {
     protected void type(By locator, String text) {
 
 
+             if(text!=null){
+                 wd.findElement(locator).clear();
+                 wd.findElement(locator).sendKeys(text);
+             }
 
-            click(locator);
-            wd.findElement(locator).clear();
-            wd.findElement(locator).sendKeys(text);
+
 
 
     }
@@ -40,4 +43,5 @@ public class HelperBaser {
             return false;
         }
     }
+
 }

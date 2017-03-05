@@ -3,22 +3,25 @@ package ru.atq.adressbook.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.atq.adressbook.model.ContactData;
 
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 public class Testcontactcreation {
     FirefoxDriver wd;
+
     
     @BeforeMethod
     public void setUp() throws Exception {
         wd = new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         wd.get("http://localhost/addressbook/");
-        Login("admin", "\\undefined");
+        Login("admin", "secret");
     }
 
     private void Login(String username, String password) {
@@ -29,13 +32,14 @@ public class Testcontactcreation {
         wd.findElement(By.name("pass")).sendKeys(password);
         wd.findElement(By.name("pass")).click();
         wd.findElement(By.xpath("//form[@id='LoginForm']/input[3]")).click();
+
     }
 
     @Test
     public void testcontactcreation() {
 
         GoToNewContact();
-        FillContactData(new ContactData("name","surname","secondname","0000000","@gmail","@kiroa"));
+        FillContactData(new ContactData("hello","surname","secondname","0000000","@gmail","@kiroa","test1"));
 
         
     }
@@ -71,7 +75,25 @@ public class Testcontactcreation {
         wd.findElement(By.name("email2")).click();
         wd.findElement(By.name("email2")).clear();
         wd.findElement(By.name("email2")).sendKeys();
+
+
+
+
+
+        if(isElementpresent(By.name("new_group"))){
+            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+        }
         wd.findElement(By.xpath("//div[@id='content']/form/input[21]")).click();
+    }
+
+    private boolean isElementpresent(By locator) {
+        try{
+            wd.findElement(locator);
+            return true;
+        } catch(NoSuchElementException ex){
+            return false;
+        }
+
     }
 
     private void GoToNewContact() {

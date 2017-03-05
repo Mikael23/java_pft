@@ -10,7 +10,7 @@ import ru.atq.adressbook.appmanager.ApplicationManager;
  */
 public class TestBase {
 
-    public final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
+    public final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
 
     @BeforeMethod
     public void setUp() throws Exception {

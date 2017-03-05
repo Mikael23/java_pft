@@ -18,13 +18,13 @@ public class GroupHelper extends HelperBaser {
     }
 
     public void SubmutGroupCreation() {
-        click(By.linkText("submit"));
+        click(By.name("submit"));
     }
 
     public void FillGroupName(GroupData groupData) {
         type(By.name("group_name"),groupData.getName());
         type(By.name("group_header"),groupData.getName());
-        type(By.name("group_name"),groupData.getName());
+        type(By.name("group_footer"),groupData.getName());
     }
 
 
@@ -47,4 +47,21 @@ public class GroupHelper extends HelperBaser {
     public void submitGroupModification() {
         click(By.name("update"));
     }
+
+    public void createGroup(GroupData group) {
+
+        InigroupCreation();
+        FillGroupName(group);
+        SubmutGroupCreation();
+        Returntogrouppage();
+
+    }
+
+
+
+    public  boolean isThereAGroup(){
+
+    }
 }
+
+
