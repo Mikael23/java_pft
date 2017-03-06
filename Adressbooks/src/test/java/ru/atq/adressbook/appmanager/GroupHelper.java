@@ -1,10 +1,8 @@
 package ru.atq.adressbook.appmanager;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.atq.adressbook.model.GroupData;
 
-import java.util.NoSuchElementException;
 
 /**
  * Created by Михаил on 27.02.2017.
@@ -59,14 +57,16 @@ public class GroupHelper extends HelperBaser {
         Returntogrouppage();
 
     }
-    private boolean isElementpresent(By name) {
-        try{
-            wd.findElement(name);
+
+
+
+    private boolean isElementpresent(By locator) {
+        try {
+            wd.findElement(locator);
             return true;
-        } catch(NoSuchElementException ex){
+        } catch (java.util.NoSuchElementException ex) {
             return false;
         }
-
     }
 
    public boolean isThereAGroup(){
