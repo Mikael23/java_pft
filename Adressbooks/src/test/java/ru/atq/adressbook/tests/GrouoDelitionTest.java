@@ -12,7 +12,7 @@ public class GrouoDelitionTest extends TestBase {
 
         app.getNavigationHelper().GoToGroupPage();
         if(! app.getGroupHelper().isThereAGroup()){
-            app.getGroupHelper().createGroup(new GroupData("test1", null, null));
+            app.getGroupHelper().createGroup(new GroupData("test1", "test2", "test3"));
         }
         app.getGroupHelper().SelectGroup();
         app.getGroupHelper().deleteSelectedGroups();

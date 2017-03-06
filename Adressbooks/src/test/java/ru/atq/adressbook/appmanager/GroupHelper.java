@@ -4,12 +4,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.atq.adressbook.model.GroupData;
 
+import java.util.NoSuchElementException;
+
 /**
  * Created by Михаил on 27.02.2017.
  */
 public class GroupHelper extends HelperBaser {
 
-    public GroupHelper(WebDriver wd) {
+    public GroupHelper(WebDriver wd)
+    {
         super(wd);
     }
 
@@ -56,11 +59,19 @@ public class GroupHelper extends HelperBaser {
         Returntogrouppage();
 
     }
+    private boolean isElementpresent(By name) {
+        try{
+            wd.findElement(name);
+            return true;
+        } catch(NoSuchElementException ex){
+            return false;
+        }
 
+    }
 
+   public boolean isThereAGroup(){
 
-    public  boolean isThereAGroup(){
-
+        return isElementpresent(By.name("selected[]"));
     }
 }
 

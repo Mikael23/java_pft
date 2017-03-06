@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class Testcontactcreation {
     FirefoxDriver wd;
 
-    
+
     @BeforeMethod
     public void setUp() throws Exception {
         wd = new FirefoxDriver();
@@ -33,6 +33,7 @@ public class Testcontactcreation {
         wd.findElement(By.name("pass")).click();
         wd.findElement(By.xpath("//form[@id='LoginForm']/input[3]")).click();
 
+
     }
 
     @Test
@@ -41,7 +42,7 @@ public class Testcontactcreation {
         GoToNewContact();
         FillContactData(new ContactData("hello","surname","secondname","0000000","@gmail","@kiroa","test1"));
 
-        
+
     }
 
 
@@ -111,6 +112,7 @@ public class Testcontactcreation {
             return true;
         } catch (NoAlertPresentException e) {
             return false;
+
         }
     }
 }
