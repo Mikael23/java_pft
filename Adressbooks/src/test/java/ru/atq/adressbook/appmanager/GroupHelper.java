@@ -63,7 +63,7 @@ public class GroupHelper extends HelperBaser {
         try {
             wd.findElement(locator);
             return true;
-        } catch (java.util.NoSuchElementException ex) {
+        } catch (org.openqa.selenium.NoSuchElementException ex) {
             return false;
         }
     }
