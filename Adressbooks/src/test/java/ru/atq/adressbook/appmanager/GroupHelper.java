@@ -3,7 +3,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.atq.adressbook.model.GroupData;
 
-
 /**
  * Created by Михаил on 27.02.2017.
  */
