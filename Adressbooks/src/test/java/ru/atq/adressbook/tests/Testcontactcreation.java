@@ -36,7 +36,7 @@ public class Testcontactcreation {
 
     }
 
-    @Test
+    @Test(enabled=false)
     public void testcontactcreation() {
 
         GoToNewContact();

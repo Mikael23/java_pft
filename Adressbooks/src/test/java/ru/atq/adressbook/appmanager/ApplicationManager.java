@@ -53,7 +53,8 @@ public class ApplicationManager {
         return groupHelper;
     }
 
-    public NavigationHelper getNavigationHelper() {
+    public NavigationHelper GoTo() {
+
         return navigationHelper;
     }
 }
